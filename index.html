@@ -23,10 +23,10 @@
 <body>
   <header class="">
     <div class="conteiner main-meny">
-      <nav class="nav">
+      <nav class="nav" data-aos="zoom-out-right">
         <!-- <logo> -->
         <a href="./images/webStudio.jpg" class="logo"
-          >Web<span class="studio">Studio</span></a
+          data-aos="zoom-out-right">Web<span class="studio">Studio</span></a
         >
         <!-- <title> -->
         <ul class="site-nav list">
@@ -42,7 +42,7 @@
         </ul>
       </nav>
       <!-- auth -->
-      <ul class="site-auth list" >
+      <ul class="site-auth list" data-aos="zoom-out-left">
         <li class="item">
           <a href="emailto:info@devstudio.com" class="link" >
             <svg class="items">
@@ -67,14 +67,15 @@
     <!-- hero -->
     <section class="content hero icon-Hero">
       <h1 class="hero-text" data-aos="fade-down">Эффективные решения для вашего бизнеса</h1>
-      <button class="primary" type="button" data-modal-open data-aos="fade-up" >Заказать услугу</button>
+      <button class="primary" type="button" data-aos="fade-up"
+      data-aos-duration="3000">Заказать услугу</button>
     </section>
 
     <!-- approach in work -->
     <section class="content work">
       <ul class="list work conteiner">
-        <li class="item icon1">
-          <div class="work-div">
+        <li class="item icon1" data-aos="fade-up">
+          <div class="work-div" data-aos="zoom-out-up">
           <svg class="work-icon">
             <use href="./images/icons.svg#icon-antenna"></use>
           </svg>
@@ -85,8 +86,8 @@
             формированию позиции.
           </p>
         </li>
-        <li class="item icon2">
-          <div class="work-div">
+        <li class="item icon2" data-aos="fade-up">
+          <div class="work-div" data-aos="zoom-out-up">
           <svg class="work-icon">
             <use href="./images/icons.svg#icon-clock"></use>
           </svg>
@@ -97,8 +98,8 @@
             влечет за собой.
           </p>
         </li>
-        <li class="item icon3">
-          <div class="work-div">
+        <li class="item icon3" data-aos="fade-up">
+          <div class="work-div" data-aos="zoom-out-up">
           <svg class="work-icon">
             <use href="./images/icons.svg#icon-diagram"></use>
           </svg>
@@ -109,8 +110,8 @@
             обуславливает.
           </p>
         </li>
-        <li class="item icon4">
-          <div class="work-div">
+        <li class="item icon4" data-aos="fade-up">
+          <div class="work-div" data-aos="zoom-out-up">
           <svg class="work-icon">
             <use href="./images/icons.svg#icon-astronaut"></use>
           </svg>
@@ -127,7 +128,7 @@
     <!-- <types of work in photo> -->
     <section class="content photo">
       <div class="conteiner">
-        <h2 class="head-text">Чем мы занимаемся</h2>
+        <h2 class="head-text" data-aos="zoom-out">Чем мы занимаемся</h2>
         <ul class="list">
           <li class="photo" data-aos="fade-right">
             <img
@@ -159,7 +160,7 @@
     <!-- <employees> -->
     <section class="employees">
       <div class="conteiner">
-        <h2 class="head-text">Наша команда</h2>
+        <h2 class="head-text" data-aos="zoom-out">Наша команда</h2>
         <ul class="list">
           <li class="fon" data-aos="flip-right">
             <img src="./images/1.jpg" width="270" alt="Дезайнер" />
@@ -310,7 +311,7 @@
 
     <!-- permanent-clients -->
     <section class="permanent-clients conteiner">
-      <h2 class="head-text">Постоянные клиенты</h2>
+      <h2 class="head-text" data-aos="zoom-out">Постоянные клиенты</h2>
       <ul class="list">
         <li class="item">
           <a href="/" class="items">
@@ -362,9 +363,7 @@
   <footer>
     <div class="footer conteiner">
       <adress>
-        <a href="./images/webStudio.jpg" class="logo">
-          Web
-          <span class="footer-studio">Studio</span>
+        <a href="./images/webStudio.jpg" class="logo">Web<span class="footer-studio">Studio</span>
         </a>
 
         <ul class="list nav">
@@ -420,7 +419,8 @@
           </li>
         </ul>
       </div>
-      <div class="dewdrop">
+      <div class="dewdrop" data-aos="fade-up"
+      data-aos-duration="5000">
         <b class="dewdrop-title">ПОДПИШИТЕСЬ НА РАССЫЛКУ</b>
         <div>
           <input 
@@ -429,8 +429,11 @@
             placeholder="E-mail"
             class="dewdrop-input" 
           />
-          <button id="user-email-dwd" type="submit" class="btn-dewdrop">
+          <button type="submit" class="btn-dewdrop">
             ПОДПИСАТЬСЯ
+            <svg class="icon-icon-send">
+              <use href="./images/icons.svg#icon-icon-send"></use>
+            </svg>
           </button>
       </div>
       </div>
@@ -444,9 +447,9 @@
       <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
       <form>
         <label class="modal-label">Имя
-        <!-- <svg class="modal-svg">
-          <use href="./images/Vector-modal.svg"></use>
-        </svg> -->
+        <svg class="modal-svg">
+          <use href="./images/icons.svg#icon-Vector-modal"></use>
+        </svg>
         <input 
           type="text"
           name="user-name"
@@ -457,9 +460,9 @@
         />
         </label>
         <label class="modal-label">Телефон
-        <!-- <svg class="modal-svg">
-          <use href="./images/Vector-modal.svg"></use>
-        </svg> -->
+          <svg class="modal-svg">
+            <use href="./images/icons.svg#icon-Vector-modal1"></use>
+          </svg>
         <input 
           type="text"
           name="user-tel"
@@ -470,9 +473,9 @@
         />
         </label>
         <label class="modal-label">Почта
-        <!-- <svg class="modal-svg">
-          <use href="./images/Vector-modal.svg"></use>
-        </svg> -->
+          <svg class="modal-svg">
+            <use href="./images/icons.svg#icon-Vector-modal2"></use>
+          </svg>
         <input 
           type="text"
           name="user-email"
