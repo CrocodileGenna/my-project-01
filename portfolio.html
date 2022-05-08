@@ -65,7 +65,7 @@
     <!-- list -->
     <main class="main">
       <section class="conteiner two-page">
-        <ul class="list main" data-aos="zoom-in">
+        <ul class="list main" data-aos="zoom-in" data-aos-duration="1000">
           <li class="item">
             <button type="button" class="secondary">Всё</button>
           </li>
@@ -84,8 +84,8 @@
         </ul>
 
         <!-- content -->
-        <ul class="list photo-t-p">
-          <li class="item" data-aos="zoom-in-right">
+        <ul class="list photo-t-p" data-aos="zoom-in-right" data-aos-duration="1500">
+          <li class="item" >
             <div class="photo-d">
               <a href="/" class="photo-text">
                 <img src="./images/portfolio1.jpg" width="370" alt="ноутбук" />
@@ -101,7 +101,7 @@
               <p class="photo-secondary">Веб-сайт</p>
             </div>
           </li>
-          <li class="item" data-aos="zoom-in-right">
+          <li class="item" >
             <div class="photo-d">
               <a href="/" class="photo-text">
                 <img src="./images/portfolio2.jpg" width="370" alt="ноутбук" />
@@ -118,7 +118,7 @@
               </div>
             </a>
           </li>
-          <li class="item" data-aos="zoom-in-right">
+          <li class="item" >
             <div class="photo-d">
               <a href="/" class="photo-text">
                 <img src="./images/portfolio3.jpg" width="370" alt="ноутбук" />
@@ -135,7 +135,7 @@
               </div>
             </a>
           </li>
-          <li class="item" data-aos="zoom-in-right">
+          <li class="item" >
             <div class="photo-d">
               <a href="/" class="photo-text">
                 <img src="./images/portfolio4.jpg" width="370" alt="ноутбук" />
@@ -152,7 +152,7 @@
               </div>
             </a>
           </li>
-          <li class="item" data-aos="zoom-in-right">
+          <li class="item" >
             <div class="photo-d">
               <a href="/" class="photo-text">
                 <img src="./images/portfolio5.jpg" width="370" alt="ноутбук" />
@@ -169,7 +169,7 @@
               </div>
             </a>
           </li>
-          <li class="item" data-aos="zoom-in-right">
+          <li class="item" >
             <div class="photo-d">
               <a href="/" class="photo-text">
                 <img src="./images/portfolio6.jpg" width="370" alt="ноутбук" />
@@ -186,7 +186,7 @@
               </div>
             </a>
           </li>
-          <li class="item" data-aos="zoom-in-right">
+          <li class="item" >
             <div class="photo-d">
               <a href="/" class="photo-text">
                 <img src="./images/portfolio7.jpg" width="370" alt="ноутбук" />
@@ -203,7 +203,7 @@
               </div>
             </a>
           </li>
-          <li class="item" data-aos="zoom-in-right">
+          <li class="item" >
             <div class="photo-d">
               <a href="/" class="photo-text">
                 <img src="./images/portfolio8.jpg" width="370" alt="ноутбук" />
@@ -220,7 +220,7 @@
               </div>
             </a>
           </li>
-          <li class="item" data-aos="zoom-in-right">
+          <li class="item" >
             <div class="photo-d">
               <a href="/" class="photo-text">
                 <img src="./images/portfolio9.jpg" width="370" alt="ноутбук" />
@@ -243,7 +243,7 @@
 
     <!-- supporting information -->
     <footer>
-      <div class="footer conteiner">
+      <div class="footer conteiner" data-aos="fade-right">
         <adress>
           <a href="./images/webStudio.jpg" class="logo">Web<span class="footer-studio">Studio</span>
           </a>
@@ -269,7 +269,7 @@
             </li>
           </ul>
         </adress>
-        <div class="dop-info">
+        <div class="dop-info" data-aos="zoom-in">
           <b class="main">ПРИСОЕДИНЯЙТЕСЬ</b>
           <ul class="list">
             <li class="item">
@@ -301,9 +301,9 @@
             </li>
           </ul>
         </div>
-        <div class="dewdrop">
-          <b class="dewdrop-title" data-aos="fade-up"
-          data-aos-duration="5000">ПОДПИШИТЕСЬ НА РАССЫЛКУ</b>
+        <div class="dewdrop" data-aos="fade-up"
+        data-aos-duration="3000">
+          <b class="dewdrop-title">ПОДПИШИТЕСЬ НА РАССЫЛКУ</b>
           <div>
             <input 
               type="text"
@@ -311,8 +311,11 @@
               placeholder="E-mail"
               class="dewdrop-input" 
             />
-            <button id="user-email-dwd" type="submit" class="btn-dewdrop">
+            <button type="submit" class="btn-dewdrop">
               ПОДПИСАТЬСЯ
+              <svg class="icon-icon-send">
+                <use href="./images/icons.svg#icon-icon-send"></use>
+              </svg>
             </button>
         </div>
         </div>
